@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# SQLite database
+backend/database.sqlite
+
+# Frontend build output
+frontend/build/
+
+# Logs and temporary files
+*.log
+.DS_Store
