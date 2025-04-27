@@ -1,24 +1,21 @@
 {
-  "name": "backend",
+  "name": "health-info-system-backend",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --detectOpenHandles"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "express": "^5.1.0",
-    "express-validator": "^7.2.1",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
     "jsonwebtoken": "^9.0.2",
-    "sequelize": "^6.37.7",
+    "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "supertest": "^7.1.0"
+    "supertest": "^7.0.0"
   }
 }
